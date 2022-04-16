@@ -20,31 +20,31 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # LOL TOKEN GO BRR
-BOT_TOKEN = os.environ.get("TOKEN")  # your discord bot token
-BOT_TOKEN_BETA = os.environ.get("TOKEN_BETA")  # the token of the beta bot (optional)
+BOT_TOKEN = os.environ.get("OTY0ODc3MDQ5NjU3NDU0NTky.YlrBxw.Psxwu0k0_cSBPsnRvl1QFmX485U")  # your discord bot token
+BOT_TOKEN_BETA = os.environ.get("OTY0ODc3MDQ5NjU3NDU0NTky.YlrBxw.Psxwu0k0_cSBPsnRvl1QFmX485U")  # the token of the beta bot (optional)
 
-MONGO_DB_URL = os.environ.get("MONGO")  # your mongodb database connection url string
-MONGO_DB_URL_BETA = os.environ.get("MONGO_BETA")  # database for the beta bot (optional)
+MONGO_DB_URL = os.environ.get("mongodb://localhost:27017/mydbname")  # your mongodb database connection url string
+MONGO_DB_URL_BETA = os.environ.get("mongodb://localhost:27017/mydbname")  # database for the beta bot (optional)
 DB_UPDATE_INTERVAL = 300  # the interval at which the database is updated
 
 PREFIX = "e!"  # the default prefix for the bot
-OWNERS = [558861606063308822]  # the bot owners
+OWNERS = [964877049657454592]  # the bot owners
 COOLDOWN_BYPASS = [558861606063308822, 344313283714613248, 679677267164921866]  # the users that bypass the cooldown
-EPICBOT_GUILD_ID = 746202728031584358  # the id of the epicbot guild
+EPICBOT_GUILD_ID = 964877049657454592  # the id of the epicbot guild
 PREMIUM_GUILDS = [746202728031584358, 749996055369875456, 876751925859725332]  # the ids of the premium guilds (it bypasses some cmd requirements)
 
 # AFK KEYS
 
-UD_API_KEY = os.environ.get("UD_API_KEY")
-WEATHER_API_KEY = os.environ.get("WEATHER")
+UD_API_KEY = os.environ.get("22b923395emshf96a691af16c121p1e77eajsn4976355d24c7")
+WEATHER_API_KEY = os.environ.get("http://history.openweathermap.org/data/2.5/history/city?lat=41.85&lon=-87.65&appid={API key}")
 TOP_GG_TOKEN = os.environ.get("SHIT_GG_TOKEN")
-TWITCH_CLIENT_ID = os.environ.get("TWITCH_CLIENT_ID")
-TWITCH_CLIENT_SECRET = os.environ.get("TWITCH_CLIENT_SECRET")
+TWITCH_CLIENT_ID = os.environ.get("wbmytr93xzw8zbg0p1izqyzzc5mbiz")
+TWITCH_CLIENT_SECRET = os.environ.get("5ykf41lduut2lvbcnu7zg1wjdhroiw")
 CHAT_BID = os.environ.get("CHAT_BID")
 CHAT_API_KEY = os.environ.get("CHAT_API_KEY")
-DAGPI_KEY = os.environ.get("DAGPI_KEY")
-STATCORD_KEY = os.environ.get("STATCORD_KEY")
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
+DAGPI_KEY = os.environ.get("https://polls.apiblueprint.org/questions")
+STATCORD_KEY = os.environ.get("statcord.com-0123456789abcdefghij")
+YOUTUBE_API_KEY = os.environ.get("AIzaSyA1QjAHPvd0_eB8noMF4BR9QyLWeUE40tI")
 
 # SECRET LOGS HEHE :3
 
